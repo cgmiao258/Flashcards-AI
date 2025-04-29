@@ -14,6 +14,7 @@ tokenizer = T5Tokenizer.from_pretrained('path/to/folder')
 model = T5ForConditionalGeneration.from_pretrained('path/to/folder', trust_remote_code=True)
 ```
 to run backend: python main_backend.py
+
 to run frontend-vite: npm run dev
 
 I started this project with the idea of building a tool to automate turning handwritten notes into flashcards using AI.
