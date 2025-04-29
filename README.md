@@ -13,6 +13,8 @@ from transformers import T5ForConditionalGeneration, T5Tokenizer
 tokenizer = T5Tokenizer.from_pretrained('path/to/folder')
 model = T5ForConditionalGeneration.from_pretrained('path/to/folder', trust_remote_code=True)
 ```
+to run backend: python main_backend.py
+to run frontend-vite: npm run dev
 
 I started this project with the idea of building a tool to automate turning handwritten notes into flashcards using AI.
 I initially tried using traditional OCR libraries like Tesseract (which produced poor results on messy handwriting) but my results were poor. So I decided to use the ChatGPT API directly to extract text from handwritten images, which gave far better flexibility and accuracy.
