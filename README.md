@@ -1,6 +1,6 @@
 # Flashcards-AI
 You can download the fine-tuned model (in safetensors format) here:  
-👉 [Download model from Google Drive](https://drive.google.com/drive/folders/1VpiVCcRd_sdNASXAAhqoZvGWDLWb07jF?usp=drive_link)
+[Download model from Google Drive](https://drive.google.com/drive/folders/1VpiVCcRd_sdNASXAAhqoZvGWDLWb07jF?usp=drive_link)
 
 **Instructions:**
 1. Download and unzip the model folder.
