@@ -1,0 +1,13 @@
+{
+    "style": "default",
+    "rsc": false,
+    "tsx": false,
+    "tailwind": true,
+    "appPath": "src",
+    "componentsPath": "src/components",
+    "utilsPath": "src/lib/utils",
+    "aliases": {
+      "@": "./src"
+    }
+  }
+  

@@ -1,0 +1,30 @@
+# Core ML and NLP
+torch>=1.13.1
+transformers==4.39.3
+sentencepiece==0.1.99
+datasets==2.18.0
+evaluate==0.4.0  
+accelerate==0.29.3
+
+# Vision and OCR
+opencv-python
+pytesseract
+Pillow
+
+# API & Web App (Flask)
+flask
+werkzeug  
+flask-cors 
+
+# Visualization & Dev
+tensorboard
+
+# OpenAI
+openai==0.28.1
+
+# Miscellaneous
+gradio 
+streamlit 
+
+# Optional Dev Utilities
+tqdm  

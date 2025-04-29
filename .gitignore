@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Python virtual environments
+venv/
+env/
+.venv/
+
+# React build artifacts and node_modules
+frontend-vite/node_modules/
+frontend-vite/dist/
+
+# Temporary upload folders (optional if used)
+uploads/
+static/uploads/
+tmp/
+runs/
+results/
+
+# Ignore environment variables
+.env
+
+# Ignore logs and temporary files
+*.log
+.DS_Store
+*.tmp
+
+# Ignore model weights (already on Google Drive)
+**/model.safetensors
+**/pytorch_model.bin
+**/runs/
+**/outputs/
+
+# Ignore large binaries
+*.dll
+*.lib
+*.exe
+*.pyd
